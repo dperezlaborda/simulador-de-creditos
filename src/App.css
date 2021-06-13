@@ -1,38 +1,54 @@
-.App {
+.App{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.on-dark{
+  background: rgb(26, 26, 26);
+}
+
+.card{
+  width: auto;
+  height: auto;
+  background-color: rgb(26, 26, 26);
+  color:#fff;
+  margin: 100px;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.border-gradient{
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+}
+
+.border-gradient-purple{
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+}
+
+.MuiTypography-h5, h4, .MuiSlider-markLabel, .MuiSlider-markLabelActive, .MuiInputBase-input {
+  color: #fff !important;  /*Pisa el estilo x default de Material-UI */
+}
+
+.title {
   text-align: center;
+  font-size: 2rem;
+  letter-spacing: 2px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.MuiInputBase-root{
+  width: 120px;
+  max-width: 120px;
+  border: 1px solid white;
   color: white;
+  text-align: center;
+  padding: 0 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.MuiInputBase-root{
+  text-align: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Mui-Button{
+  color: primary;
 }
