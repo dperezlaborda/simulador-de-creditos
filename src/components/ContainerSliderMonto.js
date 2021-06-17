@@ -11,7 +11,10 @@ const ContainerSliderMonto = ({ monto, marksMonto, sliderChangeM, handlerInputM,
         <Container>
             <Box pt={2} display="flex" justifyContent="space-between" alignItems="center">
                 <h4>Monto Total</h4>
-                <TextField type="currency" onChange={handlerInputM} onBlur={handleBlurMonto} value={"$" + monto} />
+                <Box display="flex" alignItems="center">
+                    <div className="peso">$</div>
+                    <TextField type="currency" inputProps={{ maxLength: 5 }} onChange={handlerInputM} onBlur={handleBlurMonto} value={monto} />
+                </Box>
             </Box>
             <Slider
                 value={typeof monto === 'number' ? monto : 5000}
