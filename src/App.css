@@ -7,11 +7,11 @@
 }
 
 .card{
-  width: auto;
+  max-width: 500px;
   height: auto;
   background-color: rgb(26, 26, 26);
   color:#fff;
-  margin: 100px;
+  margin: 100px auto;
   padding: 40px;
   box-sizing: border-box;
 }
