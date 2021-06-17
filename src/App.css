@@ -16,15 +16,15 @@
   box-sizing: border-box;
 }
 
-.border-gradient{
-  border: 10px solid;
-  border-image-slice: 1;
-  border-width: 5px;
+.border-purple{
+  border: 5px solid #743ad5;
+  /* border-image-slice: 1;
+  border-width: 5px; */
 }
 
-.border-gradient-purple{
+/* .border--purple{   NO FUNCIONA CUANDO DEPLOYO EN GITHUB
   border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
-}
+} */
 
 .MuiTypography-h5, h4, .MuiSlider-markLabel, .MuiSlider-markLabelActive, .MuiInputBase-input {
   color: #fff !important;  /*Pisa el estilo x default de Material-UI */

@@ -64,7 +64,7 @@ const Card = () => {
     };
 
     return (
-        <Box className="card border-gradient border-gradient-purple">
+        <Box className="card border-purple">
             <h4 className="title"> SIMULÁ TU CRÉDITO </h4>
             <ContainerSliderMonto
                 monto={monto}
