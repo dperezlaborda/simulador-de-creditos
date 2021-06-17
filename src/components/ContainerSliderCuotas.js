@@ -10,7 +10,7 @@ const ContainerSliderCuotas = ({ cuota, marksCuotas, sliderChangeC, handlerInput
         <Container>
             <Box pt={4} display="flex" justifyContent="space-between" alignItems="center">
                 <h4>Cuotas</h4>
-                <TextField type="currency" inputProps={{ maxLength: 5 }} onChange={handlerInputCuota} onBlur={handleBlurCuota} value={cuota} />
+                <TextField type="currency" inputProps={{ maxLength: 2 }} onChange={handlerInputCuota} onBlur={handleBlurCuota} value={cuota} />
             </Box>
             <Slider
                 value={typeof cuota === 'number' ? cuota : 3}
