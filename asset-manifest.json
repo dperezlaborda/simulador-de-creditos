@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/simulador-de-creditos/static/css/main.a8488f4d.chunk.css",
+    "main.js": "/simulador-de-creditos/static/js/main.40594f98.chunk.js",
+    "main.js.map": "/simulador-de-creditos/static/js/main.40594f98.chunk.js.map",
+    "runtime-main.js": "/simulador-de-creditos/static/js/runtime-main.23c5b0f0.js",
+    "runtime-main.js.map": "/simulador-de-creditos/static/js/runtime-main.23c5b0f0.js.map",
+    "static/js/2.8023637e.chunk.js": "/simulador-de-creditos/static/js/2.8023637e.chunk.js",
+    "static/js/2.8023637e.chunk.js.map": "/simulador-de-creditos/static/js/2.8023637e.chunk.js.map",
+    "static/js/3.ad0ccfeb.chunk.js": "/simulador-de-creditos/static/js/3.ad0ccfeb.chunk.js",
+    "static/js/3.ad0ccfeb.chunk.js.map": "/simulador-de-creditos/static/js/3.ad0ccfeb.chunk.js.map",
+    "index.html": "/simulador-de-creditos/index.html",
+    "static/css/main.a8488f4d.chunk.css.map": "/simulador-de-creditos/static/css/main.a8488f4d.chunk.css.map",
+    "static/js/2.8023637e.chunk.js.LICENSE.txt": "/simulador-de-creditos/static/js/2.8023637e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.23c5b0f0.js",
+    "static/js/2.8023637e.chunk.js",
+    "static/css/main.a8488f4d.chunk.css",
+    "static/js/main.40594f98.chunk.js"
+  ]
+}
